@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("https://res.cloudinary.com/dpxvpqdfz/image/upload/v1768610307/SALMOS_15_rwxhio.png") center/cover no-repeat;
+  font-family: 'Courier New', monospace;
+}
+
+#start-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.3);
+}
+
+#start-btn {
+  font-size: 32px;
+  padding: 16px 40px;
+  background: white;
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+#video {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+#press-start {
+  font-size: 32px;
+  padding: 16px 40px;
+  background: #ffffff;
+  color: #000000;
+  border: 4px solid #000;
+  box-shadow: inset -4px -4px 0 #aaa, inset 4px 4px 0 #eee;
+  animation: blink 1s infinite;
+  cursor: pointer;
+}
